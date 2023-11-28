@@ -1,0 +1,1 @@
+# UAV Trajectory Planning for Static and Dynamic Environments
