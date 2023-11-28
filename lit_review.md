@@ -4,7 +4,17 @@
 
 # Tips
 - Look at previous disserations that are similiar to my research **Guidance and Navigation of Fixed Wing UAS in Adversial Environments**
-- 
+
+
+# Gaps
+- A lot of this trajectory planning stuff doesn't consider dynamic manuevering obstacles/threats 
+- What do you do then?? Kinetic weapons avoidance but not coupled with radar 
+- Playing the role of the evader, how can I avoid mobile threats/aircraft 
+- If I needed to switch roles how would I build an algorithm that can let me hunt down a grounded vehicle 
+- What disturbances do I need to deal with on my system? 
+  - Wind 
+  - I fail something on my  wing?
+  - I get tracked by my system 
 
 # Literature Review Topics
 - Model Predictive Control 
