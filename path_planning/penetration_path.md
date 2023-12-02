@@ -10,7 +10,7 @@ ZHE ZHANG 1, JIAN WU 1,2, JIYANG DAI 1, AND CHENG HE 1
 
 ## What 
 - Used 3DOF kinematic model for aircraft to move through netted radar system 
-- Used ellipsoid model and simple probability of detection model for radar system 
+- Used ellipsoid model and simple probability of detection model for radar system
 - Coupled SA* coupled MPC for search space
 - Handled pop up threats or unknown radar configurations
 

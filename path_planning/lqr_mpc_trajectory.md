@@ -58,3 +58,4 @@ Finally, the study proposes a novel approach to 3D path planning using ACD, shed
 - Simplification of Navigation System: The assumption of a completely known and measurable state vector for the navigation system may oversimplify real-world scenarios. Practical UAV applications often involve uncertainties and variations that should be addressed.
 - Static Obstacles: The choice to consider only static obstacles may limit the applicability of the proposed path planning approach. Real-world scenarios often involve dynamic obstacles, and the review does not discuss strategies for handling dynamic elements in the environment.
 - Limited Exploration of Alternative Control Strategies: While the review discusses PID, LQR, and linear time-invariant MPC control methods, it does not explore alternative advanced control strategies or potential hybrid approaches that could enhance the overall control performance.
+- 
