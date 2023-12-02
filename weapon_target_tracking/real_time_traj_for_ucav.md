@@ -83,3 +83,9 @@ The literature review explores existing research and methodologies related to tr
 ## Conclusion
 
 The proposed trajectory planning algorithm demonstrates effectiveness in navigating UCAVs through complex scenarios. It provides real-time adaptability, robustness, and feasibility even in dynamic environments and in the presence of external disturbances. The comparison with GPM highlights its computational efficiency while maintaining competitive performance.
+
+
+## Interesting notes 
+
+
+## Drawbacks
