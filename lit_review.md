@@ -7,23 +7,43 @@
 
 
 # Gaps
+## Trajectory Planning
 - A lot of this trajectory planning stuff doesn't consider dynamic manuevering obstacles/threats 
 - What do you do then?? Kinetic weapons avoidance but not coupled with radar 
 - Playing the role of the evader, how can I avoid mobile threats/aircraft 
+- Using GPU's for faster compute of trajectories 
+  - Can I do something like this for target tracking?
 - If I needed to switch roles how would I build an algorithm that can let me hunt down a grounded vehicle 
 - What disturbances do I need to deal with on my system? 
-  - Wind 
-  - I fail something on my  wing?
-  - I get tracked by my system 
+  - I fail something on my wing?
+  - I get tracked by my system
+- Weapons tracking or targeting:
+  - Optimize time on target 
+  - Optimize damage done 
+- Using GPU to increase performance 
+
+## Weapons trajectory considerations
+- 
+
+## Things I can use
+- Kill chain costing? 
+- Probability of detection
+- Probability of kill 
+
+## Redundant future works 
+- Fu
 
 # Literature Review Topics
-- Model Predictive Control 
-- Path Planning Adversial Environments
+
+- Path Planning/Trajectory Planning Adversial Environments
   - Obstacle avoidance  
   - Radar Avoidance 
-- Fixed Wing Dynamics and Modeling 
-- Model Predictive Control 
-- Gaussian Process Model Predictive Control  
+  - Dynamic adversary considerations 
+- 
+- Optimal Trajectory Control 
+- Model Predictive Control - Fixed Wing applications
+- Fixed Wing Dynamics and Modeling  
+- Data Driven Model Predictive Control  
 
 # Gaussian Process MPC
 https://www.youtube.com/watch?app=desktop&v=FHlsbFqWS5g&ab_channel=LearningSystemsandRoboticsLab

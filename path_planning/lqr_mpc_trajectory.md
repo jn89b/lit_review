@@ -42,3 +42,19 @@ Alvaro Ortiz 1 , Sergio Garcia-Nieto 2,* and Raul Simarro 2
 - Run time wasn't discussed/ probably bad 
 - No Dynamic adversaries or pop up considerations  
 - Lack of RCS consideration and fidelity of radars 
+
+  
+## What did they do 
+The adoption of adaptive cell decomposition (ACD) is proposed, combining refined 3D Cartesian geometry reconstructions with recursive rewarding cost functions. A subsequent 3D smooth path-planning algorithm is applied, enhancing dynamic trajectory feasibility for UAVs.
+
+In the context of guidance, navigation, and control (GNC), the review touches upon PID control, full state feedback (FSF), and advanced methods like Linear Quadratic Regulator (LQR) and linear time-invariant Model Predictive Control (MPC). The article explores proportional and predictive control guidance laws, highlighting the selection of a nonlinear guidance law for stability, tracking, and robustness evaluation.
+
+The problem definition involves a hypothetical military mission for an F-86 Sabre UAV, considering obstacles, dynamic trajectory creation, and mission specifications. The integration of theoretical investigation into position detection techniques and hardware implementation is noted, with a focus on assuming a completely measurable state vector for simplification.
+
+Finally, the study proposes a novel approach to 3D path planning using ACD, shedding light on the challenges and methodologies involved in achieving effective UAV mission success.
+
+
+## Gaps or Drawbacks 
+- Simplification of Navigation System: The assumption of a completely known and measurable state vector for the navigation system may oversimplify real-world scenarios. Practical UAV applications often involve uncertainties and variations that should be addressed.
+- Static Obstacles: The choice to consider only static obstacles may limit the applicability of the proposed path planning approach. Real-world scenarios often involve dynamic obstacles, and the review does not discuss strategies for handling dynamic elements in the environment.
+- Limited Exploration of Alternative Control Strategies: While the review discusses PID, LQR, and linear time-invariant MPC control methods, it does not explore alternative advanced control strategies or potential hybrid approaches that could enhance the overall control performance.
