@@ -17,5 +17,3 @@ P.B. Sujit, Srikanth SariPalli, and joão BorgeS SouSa
 - 
 - Straight line:
 - Says Vector Fields are the best move to track systems in 3D space 
-
-

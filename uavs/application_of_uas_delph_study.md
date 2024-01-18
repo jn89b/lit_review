@@ -49,7 +49,7 @@ Research objectives were designed to help UAS developers and researchers identif
   - Command and Control
   - EW/Cyber 
 - Pilots remained the most conservative toward the assignment of autonomy levels across all mission types with an average rating of 2.53 (between HITL and shared) 
-- Acquisition and academic panelists, however, believed future UAS missions will achieve autonomy levels between HOTL and fully autonomous (mean = 4.27 and 4.2)
+-** Acquisition and academic panelists, however, believed future UAS missions will achieve autonomy levels between HOTL and fully autonomous (mean = 4.27 and 4.2)**
 
 
 ### Third Panel 
@@ -65,7 +65,8 @@ Research objectives were designed to help UAS developers and researchers identif
   - Capability to sense environment and avoid obstacles
 - Human machine interaction:
   - Better way to interact with UAS versus keyboards,mice and joysticks
-Machine learning (ML)–artificial intelligence (AI) recognized the increasing role of AI/ML in the modern data analysis, especially under complexity and time constraints commonly found in aerial operations
+- **Machine learning (ML)–artificial intelligence (AI) recognized the increasing role of AI/ML in the modern data analysis, especially under complexity and time constraints commonly found in aerial operations**
 - Data links
+- Mission Planning 
 
 ## What are the emerging technologies 

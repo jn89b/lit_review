@@ -1,3 +1,5 @@
+Useful links:
+https://gist.github.com/kyunghoj/f5cbb382a664645ab0bb
 
 Prepare summary of:
     Motivation
@@ -13,51 +15,40 @@ Prepare schedule for:
     Defense
 
 ## Motivation
-- UAS in Military 
-- Aircraft Combat Surviveabiltiy (ACS) 
-- Challenges in Planning for UAS 
+- UAS in Military and migration to higher levels of autonomy
+- Three horizons -> leveling up autonomy
+- Field experts believe that various missions will become operationized with various levels of autuonomy for UAS platforms: EW being one of them
+- From acquisition and academics strong confidence will be Human out of the Loop Operation or Fully autonomous
+- Aircraft Combat Surviveabiltiy (ACS)
+- Challenges in Planning for UAS
   - Computation time not shared and is done offline more than not
-  - Demand for UAS to be able to intelligently plan routes from SOTA comprehensive review for beyond Visual Line of Sight Operations 
+  - Demand for UAS to be able to intelligently plan routes from SOTA comprehensive review for beyond Visual Line of Sight Operations
   - Need to consider obstacles,terrain,threats, and thereat detections
-- Guidance and controls of autonomous UAS
+- Optimal  of autonomous UAS
   - Nonlinear models typically linearized, accurate only to a certain degree
 - Prediction of threats
-  - For military applications typically modelled as Gaussian 
+  - For military applications typically modelled as Gaussian
   - Radar systems
   - Sentry dynamic UAS  
   - Intelligent swarm systems?  
 
-## Problem Statement
-- Fast Path Planning in Adversarial Dynamic Environment with mission performance consideration 
-  - Aim to find a high level trajectory that can satisfy kinematic constraints of aircraft, avoid static and dynamic threats, and approach target optimally. 
-- Trajectory generation 
 
+# Problem Statements
+- Dynamic Approach Vector Global Planning: Design a system enabling unmanned aerial systems (UAS) to generate optimal approach vectors in real-time, emphasizing adaptability in uncertain environments​
+  - Utilize GPU to improve parallelization speed 
+  - Utilize MDP to generate optimal route based on effector based on probabilities of various threats 
+    - Utilize kill chain? 
+  - Paralleize based approach vector for target to speed up search iteration with GPU as well 
+  - **Why would I do this?**
+    - General route planners utilize deterministic environments 
+    - Result times are slow if optimal or using stochastic environments 
 
+- Autonomous Decision Making in Adversarial Contexts with LLMS : Utilize LLMs to develop a decision-making framework for UAS to intelligently select optimal routes, considering diverse circumstances and adversarial threats to enhance mission safety and success. ​
+  - Need to check this out with SLMs and how this pipeline works 
+  - Idea is for SLM to have input of what is going on with environment
+  - Based on that send commands to the MPC on what to do or utilize motion primitives derived from MPC with dictionary
+  - 
 
-# Formal Problem Statement for PhD Research
-
-## Research Title
-**"Enhancing Unmanned Aerial Systems (UAS) Autonomy and Combat Survivability in Military Operations: A Comprehensive Investigation into Intelligent Planning, Guidance, and Threat Prediction"**
-
-## Problem Statement
-
-### 1. Computation Time and Planning Challenges:
-- The current computation time for UAS planning is often offline and not well-shared, leading to delays in mission execution.
-- UAS must intelligently plan routes, considering factors such as obstacles, terrain, and real-time threat detections for optimal Beyond Visual Line of Sight (BVLOS) operations.
-
-### 2. Guidance and Control of Autonomous UAS:
-- Existing nonlinear models used for guidance and control are typically linearized, offering accuracy only within specific operational parameters.
-- The need for advanced control strategies to enhance the autonomy and responsiveness of UAS in diverse and dynamic military environments.
-
-### 3. Prediction of Threats:
-- Threats in military scenarios are commonly modeled as Gaussian, involving radar systems, dynamic UAS sentry systems, and potential integration with intelligent swarm systems.
-- The development of sophisticated threat prediction algorithms and systems to enhance situational awareness and response capabilities.
-
-## Objectives
-The primary objectives of this research are to:
-- Develop novel algorithms and methodologies for efficient UAS route planning in complex operational environments.
-- Investigate advanced nonlinear control strategies to improve the guidance and control mechanisms of autonomous UAS.
-- Propose innovative threat prediction models and systems for military applications.
-
-## Significance of the Research
-The outcomes of this research are expected to significantly contribute to the advancement of UAS capabilities in military operations, leading to increased autonomy, survivability, and effectiveness. The proposed solutions aim to address current limitations and pave the way for the next generation of intelligent and adaptive UAS technologies in military contexts.
+- Model Predictive Control with Threat Mitigation and Asset Maximization: Create a real-time system for UAS to continuously optimize trajectories, effectively avoiding both deterministic and nondeterministic threats, ensuring mission success in dynamic environments with the given asset.
+  - Check out stochastic MPC or MPC based on markov decision process from global planner? 
+  - 
